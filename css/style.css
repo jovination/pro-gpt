@@ -106,6 +106,9 @@ header{
 .wrapper-hero-one{
     width: 380px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
 .hero-h1{
     font-family: 'Kanit', sans-serif;
@@ -121,4 +124,30 @@ header{
     font-size: 16px;
     color: #F7F3FC;
     margin: 0;
+}
+.b-low-container{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.b-low-container a{
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F7F3FC;
+}
+.try_btn{
+    width: 170px;
+    height: 50px;
+    background: #F7F3FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try_btn a{
+    font-size: 15px;
+    color: #5F0BB8;
 }
