@@ -3,12 +3,16 @@ html{
 }
 body{
     width: 1280px;
-    height: 720px;
+    height: 100vh;
+    
 }
 
 .wrapper{
     width: 1080px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
 }
 header{
@@ -19,11 +23,13 @@ header{
 }
 .navbar{
     margin: 0 auto;
-    width: 1000px;
+    width: 1080px;
     height: 75px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 248px;
     align-items: center;
+    justify-content: center;
 }
 .primary_nav ul {
     list-style: none;
@@ -37,7 +43,7 @@ header{
 .primary_nav ul li a{
     color: #F7F3FC;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
 }
 .logo a{
@@ -50,10 +56,43 @@ header{
     align-items: center;
 }
 .logo span{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 .logo-gpt{
     width: 60px;
+}
+.sign_up{
+    width: 115px;
+    height: 45px;
+    background: #F7F3FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+}
+.sign_up a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5F0BB8;
+    text-transform: uppercase;
+}
+.container_one{
+    width: 1080px;
+    height: 650px;
+    background: #5F0BB8;
+    border-radius: 30px;
+    display: flex;
+}
+.left_col{
+    width: 495px;
+    height: 100%;
+
+}
+
+.right_col{
+    width: 385px;
+    height: 100%;
 }
