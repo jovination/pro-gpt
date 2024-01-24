@@ -509,6 +509,7 @@ header{
 
 }
 .wrap_txt-container{
+    margin-left: 30px;
     width: 500px;
     height: 320px;
     display: flex;
@@ -584,4 +585,22 @@ header{
     position: absolute;
     bottom: 40px;
     left: 285px;
+}
+
+.left_wrap,
+.center_wrap{
+    position: relative;
+}
+.jslogo{
+    width: 120px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+.cslogo{
+    width: 60px;
+    position: absolute;
+    bottom: 230px;
+    left: 35px;
+    
 }
