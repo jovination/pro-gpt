@@ -82,7 +82,7 @@ header{
 }
 .container_one{
     width: 1080px;
-    height: 658px;
+    height: 655px;
     background: #5F0BB8;
     border-radius: 30px;
     display: flex;
@@ -116,7 +116,7 @@ header{
 }
 .wrapper-hero-one{
     width: 380px;
-    height: 345px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -163,4 +163,14 @@ header{
 .try_btn a{
     font-size: 15px;
     color: #5F0BB8;
+}
+.extended_ui{
+    position: absolute;
+    width: 148px;
+    height: 112px;
+    background: #691ABC;
+    border-radius: 10px;
+    border: 1px #7024BF solid;
+    bottom: 30px;
+    right: 318px;
 }
