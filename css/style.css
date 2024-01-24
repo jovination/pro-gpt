@@ -192,6 +192,8 @@ header{
     align-items: center;
 }
 .try_btn a{
+    text-decoration: none;
+    text-transform: uppercase;
     font-size: 16px;
     color: #5F0BB8;
 }
@@ -203,9 +205,9 @@ header{
     position: absolute;
     width: 148px;
     height: 112px;
-    background: #691ABC;
     border-radius: 10px;
-    border: 1.8px #7024BF solid;
+    border: 1.2px #9a39ff solid;
+    background: #ffffff2b; 
     bottom: 30px;
     right: 318px;
     display: flex;
@@ -244,8 +246,8 @@ header{
     width: 100px;
     height: 40px;
     border-radius: 30px;
-    background: #691ABC;
-    border: 2px #7024BF solid;
+    border: 1.2px #9a39ff solid;
+    background: #ffffff2b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -493,13 +495,93 @@ header{
 .wrap-1{
     width: 492px;
     height: 585px;
+    position: relative;
 }
 .wrap-2{
     width: 588px;
     height: 585px;
+    display: flex;
+    align-items: center;
 }
 .p_001{
     margin-top: 50px;
     width: 492px;
 
+}
+.wrap_txt-container{
+    width: 500px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.wrt_h1{
+    font-size: 38px;
+    font-weight: 500;
+    color: #F7F5FA;
+    margin: 0;
+    line-height: 1.2;
+}
+.big_h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F7F5FA;
+    margin: 0;
+}
+.wrt_p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #F7F5FA;
+    margin: 0;
+}
+.try_bbl{
+    width: 108px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1.2px #9a39ff solid;
+    background: #ffffff2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform: rotate(340deg);
+    gap: 16px;
+    position: absolute;
+    top: 500px;
+    left: 85px;
+}
+.try_bbl span {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F7F5FA;
+    margin: 0;
+}
+.conv_bbl span{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F7F5FA;
+    margin: 0;
+}
+.green-cir{
+    background: #02EA7E;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.conv_bbl{
+    width: 192px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.2px #9a39ff solid;
+    background: #ffffff2b;
+    border-radius: 30px;
+    transform: rotate(8deg);
+    position: absolute;
+    bottom: 40px;
+    left: 285px;
 }
