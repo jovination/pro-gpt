@@ -27,11 +27,17 @@ header{
     height: 75px;
     display: flex;
     flex-direction: row;
-    gap: 248px;
+    gap: 235px;
     align-items: center;
     justify-content: center;
 }
-
+.primary_nav{
+    width: 330px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .primary_nav ul {
     list-style: none;
     display: flex;
@@ -161,8 +167,12 @@ header{
     align-items: center;
 }
 .try_btn a{
-    font-size: 15px;
+    font-size: 16px;
     color: #5F0BB8;
+}
+.learn-btn a{
+    font-size: 16px;
+    color: #F7F3FC;
 }
 .extended_ui{
     position: absolute;
@@ -170,7 +180,38 @@ header{
     height: 112px;
     background: #691ABC;
     border-radius: 10px;
-    border: 1px #7024BF solid;
+    border: 1.8px #7024BF solid;
     bottom: 30px;
     right: 318px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-icon{
+    width: 30px;
+    height: 30px;
+}
+.learn-btn{
+ width: 150px;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+ align-items: center;
+}
+.txt-wp{
+    width: 118px;
+    height: 80px;
+}
+.txt-wp h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F7F3FC;
+    margin: 0;
+}
+.p-3{
+    font-size: 14px;
+    font-weight: 300;
+    color: #F7F3FC;
+    margin: 0;
 }
