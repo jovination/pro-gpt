@@ -7,7 +7,7 @@ html{
     font-family: 'Kanit', sans-serif;
 }
 body{
-background: #F7F3FC;    
+background: #F7F5FA;    
 }
 main{
     width: 100%;
@@ -280,7 +280,11 @@ header{
 }
 .container_two{
     width: 1080px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
+
 .upper_wrap{
     width: 100%;
     height: 180px;
@@ -302,4 +306,28 @@ header{
     color: #0E0E0F;
     text-align: center;
     margin: 0;
+}
+.lower_wrap{
+    width: 1080px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.l_wrap{
+    width: 345px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.ui_card{
+    width: 345px;
+    height: 306px;
+    border-radius: 20px;
+    background: #FFFFFF;
+
 }
