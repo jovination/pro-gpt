@@ -588,6 +588,7 @@ header{
 }
 
 .left_wrap,
+.right_wrap,
 .center_wrap{
     position: relative;
 }
@@ -603,4 +604,10 @@ header{
     bottom: 230px;
     left: 35px;
     
+}
+.collab-icon{
+    width: 65px;
+    position: absolute;
+    bottom: 230px;
+    right: 35px;
 }
