@@ -31,6 +31,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 .primary_nav ul {
     list-style: none;
     display: flex;
@@ -81,7 +82,7 @@ header{
 }
 .container_one{
     width: 1080px;
-    height: 650px;
+    height: 658px;
     background: #5F0BB8;
     border-radius: 30px;
     display: flex;
@@ -98,26 +99,37 @@ header{
 .right_col{
     width: 385px;
     height: 100%;
+    position: relative;
 }
 .picture_one{
+    position: absolute;
+    z-index: 2;
     margin-top: 30px;
     width: 450px;
 }
+.ring-ill{
+    width: 580px;
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    z-index: 1;
+}
 .wrapper-hero-one{
     width: 380px;
-    height: 400px;
+    height: 345px;
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    justify-content: space-between;
 }
 .hero-h1{
+    margin: 0;
     font-family: 'Kanit', sans-serif;
-    font-size: 54px;
+    font-size: 58px;
     font-weight: 700;
     text-transform: uppercase;
     color: #F7F3FC;
-    margin: 0;
     letter-spacing: 3px;
+    line-height: 1;
 }
 .hero-p{
     font-family: 'Kanit', sans-serif;
@@ -142,6 +154,7 @@ header{
 .try_btn{
     width: 170px;
     height: 50px;
+    border-radius: 30px;
     background: #F7F3FC;
     display: flex;
     justify-content: center;
