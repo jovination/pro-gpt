@@ -483,3 +483,23 @@ header{
 .upright-icon{
     width: 30px;
 }
+.wrap_container{
+    width: 1080px;
+    height: 585px;
+    background: #5F0BB8;
+    border-radius: 30px;
+    display: flex;
+}
+.wrap-1{
+    width: 492px;
+    height: 585px;
+}
+.wrap-2{
+    width: 588px;
+    height: 585px;
+}
+.p_001{
+    margin-top: 50px;
+    width: 492px;
+
+}
