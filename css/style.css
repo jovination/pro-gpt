@@ -93,11 +93,25 @@ header{
     text-transform: uppercase;
 }
 .container_one{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+.wrapper_container{
     width: 1080px;
     height: 655px;
     background: #5F0BB8;
     border-radius: 30px;
     display: flex;
+}
+.wrapper_container_01{
+    width: 1080px;
+    height: 120px;
+    border-radius: 14px;
+    background: #5F0BB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .left_col{
     width: 495px;
@@ -233,7 +247,7 @@ header{
     transform: rotate(340deg);
     position: absolute;
     bottom: 105px;
-    right: -50px;
+    right: -70px;
 }
 .b-btn span{
     font-size: 16px;
@@ -242,4 +256,18 @@ header{
     color: #F7F3FC;
     text-transform: uppercase;
     margin: 0;
+}
+.wrapper_container_01 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin: 0;
+    padding: 0;
+}
+.wrapper_container_01 ul li{
+    font-size: 34px;
+    color: #F7F3FC;
+    text-transform: uppercase;
+    font-weight: 600;
 }
