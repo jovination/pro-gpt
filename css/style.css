@@ -569,7 +569,7 @@ header{
     align-items: center;
     flex-direction: row;
     transform: rotate(340deg);
-    gap: 16px;
+    gap: 25px;
     position: absolute;
     top: 500px;
     left: 85px;
@@ -705,4 +705,8 @@ header{
 }
 .img_illu{
     width: 450px;
+}
+.faq_wrapper_container{
+    width: 620px;
+    
 }
