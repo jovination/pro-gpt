@@ -655,6 +655,7 @@ header{
 
 .txt-ui-box p{
     font-size: 15px;
-    color: #0E0E0F;
+    color: #3C3940;
     margin: 0;
+    line-height: 1.5;
 }
