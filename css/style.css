@@ -13,7 +13,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
 }
 .wrapper{
     width: 1080px;
@@ -658,4 +658,22 @@ header{
     color: #3C3940;
     margin: 0;
     line-height: 1.5;
+}
+.container_four{
+    width: 1080px;
+}
+.up_txt_h1{
+    width: 1080px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up_txt_h1 h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0E0E0F;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
 }
