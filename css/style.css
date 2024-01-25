@@ -329,12 +329,16 @@ header{
 .ui_card{
     width: 345px;
     height: 306px;
+    
+    
 }
 .in_ui_upper{
     width: 100%;
     height: 228px;
-    background: #FFFFFF;
+    background: #FFF;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.02), 7px 7px 10px 0px rgba(0, 0, 0, 0.02), 17px 17px 14px 0px rgba(0, 0, 0, 0.01), 29px 30px 17px 0px rgba(0, 0, 0, 0.00), 46px 47px 18px 0px rgba(0, 0, 0, 0.00);
     border-radius: 24px 24px 24px 0px;
+
 
 }
 .in_ui_upper-1{
@@ -363,7 +367,8 @@ header{
 .ui_1{
     width: 267px;
     height: 78px;
-    background: #FFFFFF;
+    background: #FFF;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.02), 7px 7px 10px 0px rgba(0, 0, 0, 0.02), 17px 17px 14px 0px rgba(0, 0, 0, 0.01), 29px 30px 17px 0px rgba(0, 0, 0, 0.00), 46px 47px 18px 0px rgba(0, 0, 0, 0.00);    
     border-radius:  0px 0px 24px 24px;
 }
 .ui_1-1{
@@ -397,7 +402,7 @@ header{
 .inner_ui{
     width: 100%;
     height: 100%;
-    background: #F7F5FA;
+    background: linear-gradient(127deg, #edebf0,  #F7F5FA);
     border-radius: 38px 0px 0px 0px;
     display: flex;
     justify-content: center;
@@ -441,8 +446,8 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: #FFFFFF;
-    position: absolute;
+    background: #FFF;
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.02)) drop-shadow(6px 6px 8px rgba(0, 0, 0, 0.02)) drop-shadow(13px 13px 11px rgba(0, 0, 0, 0.01)) drop-shadow(23px 23px 13px rgba(0, 0, 0, 0.00)) drop-shadow(36px 36px 14px rgba(0, 0, 0, 0.00));    position: absolute;
     bottom: 0px;
     right: 0px;
 }

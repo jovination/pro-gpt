@@ -1,3 +1,4 @@
 {
-    "editor.codeLensFontFamily": "Victor Mono"
+    "editor.codeLensFontFamily": "Victor Mono",
+    "liveServer.settings.port": 5502
 }
