@@ -710,3 +710,39 @@ header{
     width: 620px;
     
 }
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.accordion-item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+    gap: 15px;
+    border: .1px #d3d3d3 solid;
+    
+}
+
+.accordion-header span{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.accordion-header i{
+    font-size: 14px;
+}
+.accordion-content p{
+    font-size: 16px;
+    color: #3C3940;
+    font-weight: 300;
+    margin: 0;
+}
