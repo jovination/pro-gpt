@@ -621,3 +621,9 @@ header{
     bottom: 230px;
     right: 35px;
 }
+.ai-icon{
+    width: 85px;
+    position: relative;
+    right: -150px;
+    top: 22px;
+}
