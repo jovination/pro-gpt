@@ -107,7 +107,7 @@ header{
     width: 1080px;
     height: 655px;
     background: #5F0BB8;
-    border-radius: 30px;
+    box-shadow: -1px 5px 11px 0px rgba(95, 11, 184, 0.29), -3px 21px 21px 0px rgba(95, 11, 184, 0.26), -6px 46px 28px 0px rgba(95, 11, 184, 0.15), -11px 82px 33px 0px rgba(95, 11, 184, 0.04), -17px 129px 36px 0px rgba(95, 11, 184, 0.01);    border-radius: 30px;
     display: flex;
 }
 .wrapper_container_01{
@@ -498,6 +498,7 @@ header{
     width: 1080px;
     height: 585px;
     background: #5F0BB8;
+    box-shadow: -1px 5px 11px 0px rgba(95, 11, 184, 0.29), -3px 21px 21px 0px rgba(95, 11, 184, 0.26), -6px 46px 28px 0px rgba(95, 11, 184, 0.15), -11px 82px 33px 0px rgba(95, 11, 184, 0.04), -17px 129px 36px 0px rgba(95, 11, 184, 0.01);
     border-radius: 30px;
     display: flex;
 }
