@@ -727,7 +727,7 @@ header{
 .accordion_item{
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px 20px;
     background: #F7F5FA;
     border: .1px #d3d3d3 solid;
@@ -739,6 +739,7 @@ header{
 .accordion_item.open{
     background: #FDFDFD;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 10px 10px 0px rgba(0, 0, 0, 0.04), 0px 22px 13px 0px rgba(0, 0, 0, 0.03), 0px 38px 15px 0px rgba(0, 0, 0, 0.01), 0px 60px 17px 0px rgba(0, 0, 0, 0.00);
+    border-radius: 20px;
     border: none;
 }
 
