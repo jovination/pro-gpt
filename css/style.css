@@ -685,10 +685,11 @@ header{
     width: 1080px;
     height: 585px;
     display: flex;
+    align-items: center;
 }
 .faq_container{
     width: 648px;
-    height: 585px;
+    height: 500px;
 }
 .ask_container{
     width: 432px;
@@ -720,16 +721,22 @@ header{
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    min-height: 30px;
 }
 .accordion_item{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 15px;
-    background: #fff;
-    gap: 15px;
+    padding: 10px 20px;
+    background: #F7F5FA;
     border: .1px #d3d3d3 solid;
     
+}.accordion_item.open .descriptions{
+    margin: 8px 0 8px 0;
+}
+.accordion_item.open{
+    background: #FDFDFD;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.05), 0px 10px 10px 0px rgba(0, 0, 0, 0.04), 0px 23px 14px 0px rgba(0, 0, 0, 0.03), 0px 42px 17px 0px rgba(0, 0, 0, 0.01), 0px 65px 18px 0px rgba(0, 0, 0, 0.00);
 }
 
 .accordion_header span{
@@ -739,6 +746,7 @@ header{
 }
 .accordion_header i{
     font-size: 14px;
+    transition: all 0.2s linear;
 }
 .accordion_content{
     overflow: hidden;
@@ -749,5 +757,4 @@ header{
     color: #3C3940;
     font-weight: 300;
     transition: all 0.2s linear;
-    margin: 0;
 }
