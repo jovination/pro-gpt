@@ -796,8 +796,9 @@ header{
 .team_wrap{
     width: 345px;
     height: 540px;
-    background: #fff;
     border-radius: 25px;
+background: #FFF;
+box-shadow: 1px 7px 15px 0px rgba(0, 0, 0, 0.06), 5px 27px 27px 0px rgba(0, 0, 0, 0.05), 12px 60px 37px 0px rgba(0, 0, 0, 0.03), 21px 107px 44px 0px rgba(0, 0, 0, 0.01), 33px 168px 48px 0px rgba(0, 0, 0, 0.00);
 }
 .pro_wrap{
     width: 365px;
