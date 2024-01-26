@@ -764,3 +764,18 @@ header{
     font-weight: 300;
     transition: all 0.2s linear;
 }
+.prc_txt_up{
+    width: 1080px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prc_txt_up  h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0E0E0F;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
