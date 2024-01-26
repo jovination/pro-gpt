@@ -764,6 +764,12 @@ header{
     font-weight: 300;
     transition: all 0.2s linear;
 }
+.container_five{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 .prc_txt_up{
     width: 1080px;
     height: 100px;
@@ -778,4 +784,25 @@ header{
     line-height: 1.2;
     text-align: center;
     margin: 0;
+}
+.pricing_wrap{
+    width: 1080px;
+    height: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.starter_wrap,
+.team_wrap{
+    width: 345px;
+    height: 540px;
+    background: #fff;
+    border-radius: 25px;
+}
+.pro_wrap{
+    width: 365px;
+    height: 610px;
+    background: #5F0BB8;
+    border-radius: 25px;
+    border: 1.2px #9a39ff solid;
 }
